@@ -1,16 +1,14 @@
 # social_media_app
 
-A new Flutter project.
+This social media app allows users to post messages with their usernames, view posts from different users, and interact in a simple and engaging way. It integrates Firebase for authentication and Firestore for storing posts, ensuring a seamless and real-time experience. 
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+- You need to first sign up in the application.
+- After successful sign up, user will be redirected to the Dashboard.
+- Dashboard contains two pages: Posts and Settings
+- In Posts, user can view all the posts added by different users. This posts are fetched from the firebase cloud firestore.
+- User can also post their message using add post button. This post will be stored in Firebase Cloud Firestore under posts document.
+- In Settings, the username and email of the user is displayed.
+- User can logout from the application using the Logout button.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
